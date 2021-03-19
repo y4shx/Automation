@@ -15,10 +15,10 @@ param(
  $deploymentName = "testing",
 
  [string]
- $templateFilePath = "$(System.DefaultWorkingDirectory)/_y4shx_Automation/etrack.json",
+ $templateFilePath = "etrack.json",
 
  [string]
- $parametersPath = "$(System.DefaultWorkingDirectory)/_y4shx_Automation/Eteack-para.json"
+ $parametersPath = "Eteack-para.json"
 )
 
 
