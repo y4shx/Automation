@@ -21,6 +21,9 @@ param(
  $parametersPath = "Eteack-para.json"
 )
 
+# sign in
+Write-Host "Logging in...";
+Login-AzureRmAccount;
 
 # select subscription
 Write-Host "Selecting subscription '$subscriptionId'";
